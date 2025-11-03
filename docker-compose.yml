@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  web:
+    image: yourdockerhubusername/myapp:latest
+    container_name: myapp
+    restart: always
+    ports:
+      - "80:5000"
